@@ -1,0 +1,24 @@
+.shop-button {
+  position: fixed;
+  z-index: 100;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 100%;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgba(243, 27, 27, 0.938);
+  cursor: pointer;
+}
+.shop-button.active {
+  background-color: rgb(233, 202, 202);
+}
+.shop-button img {
+  width: 35px;
+}
+textarea.form-control {
+  resize: none;
+  height: 75vh;
+}
+.btn-danger {
+  float: right;
+}
