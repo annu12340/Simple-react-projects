@@ -60,7 +60,7 @@ const App = () => {
           <div className="col-6 mb-20">
             <form action="" onSubmit={handleSubmit}>
               <b>Add item </b>
-              <input type="text" value={value} className="form-control" placeholder="Enter item" onChange={handleChange} />
+              <input type="text" value={value || ""} className="form-control" placeholder="Enter item" onChange={handleChange} />
             </form>
           </div>
         </div>
