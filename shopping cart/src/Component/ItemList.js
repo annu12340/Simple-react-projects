@@ -3,8 +3,8 @@ import React from "react";
 const ItemList = ({ Item, SelectedItems, handleSelect }) => {
   const toDelete = (key) => {
     console.log(key, "is to be deleted ");
-    Item.splice(key, 1);
-    console.log(Item);
+    Item.splice(key,1)
+    console.log(Item)
   };
   return (
     <ul className="list-group">
