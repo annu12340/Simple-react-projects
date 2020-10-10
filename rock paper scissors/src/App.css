@@ -1,0 +1,80 @@
+body {
+  background: #24272e;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.score-board {
+  border: 3px solid #fff;
+  width: 300px;
+  margin: -300px auto;
+  font-size: 40px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background: #e2584d;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 6px;
+}
+
+#user-label {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(-10%, -50%);
+}
+
+#computer-label {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(10%, -50%);
+}
+
+.result {
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.result {
+  line-height: 50px;
+}
+
+.usercontainer {
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+  padding-left: 70%;
+}
+
+.usercontainer button {
+  box-shadow: 0 0 20px #222;
+  border-radius: 50%;
+}
+.choice {
+  background-color: transparent;
+  height: 80px;
+  width: 80px;
+  font-size: 5em;
+  cursor: pointer;
+  margin: 0.25em;
+  border-radius: 50%;
+}
+
+.text {
+  color: #eceef1;
+  font-size: 15px;
+}
