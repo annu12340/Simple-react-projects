@@ -1,0 +1,13 @@
+.Card {
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.Deck-title {
+   text-align: center;
+}
+.Deck-btn {
+   transform: translateX(47em);
+}
